@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package boundpropertyexercise;
+package ballsc;
 
 import java.beans.*;
 import java.io.Serializable;
@@ -12,7 +12,7 @@ import java.io.Serializable;
  *
  * @nueng
  */
-public class FootballBoundPropertyBean implements Serializable {
+public class ball2 implements Serializable {
     
     public static final String INPUTVALUE_PROPERTY = "inputValue";
     
@@ -20,7 +20,7 @@ public class FootballBoundPropertyBean implements Serializable {
     
     private PropertyChangeSupport propertySupport;
     
-    public FootballBoundPropertyBean() {
+    public ball2() {
         propertySupport = new PropertyChangeSupport(this);
     }
     

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package boundpropertyexercise;
+package ballsc;
 
 import java.util.Scanner;
 
@@ -11,14 +11,14 @@ import java.util.Scanner;
  *
  * @nueng
  */
-public class BoundPropertyExercise {
+public class ball1 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        FootballBoundPropertyBean mySource = new FootballBoundPropertyBean();  
+        ball2 mySource = new ball2();  
         Listener1 listener1 = new Listener1(); 
         Listener2 listener2 = new Listener2(); 
         mySource.addPropertyChangeListener(listener1); 

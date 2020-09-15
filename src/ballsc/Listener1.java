@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package boundpropertyexercise;
+package ballsc;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
@@ -12,7 +12,7 @@ import java.beans.PropertyChangeListener;
  *
  * @nueng
  */
-public class Listener2 implements PropertyChangeListener {
+public class Listener1 implements PropertyChangeListener {
 
     @Override
     public void propertyChange(PropertyChangeEvent evt) {
