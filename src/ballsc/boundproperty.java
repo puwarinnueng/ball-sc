@@ -11,14 +11,14 @@ import java.util.Scanner;
  *
  * @nueng
  */
-public class ball1 {
+public class boundproperty {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        ball2 mySource = new ball2();  
+        boundset mySource = new boundset();  
         Listener1 listener1 = new Listener1(); 
         Listener2 listener2 = new Listener2(); 
         mySource.addPropertyChangeListener(listener1); 

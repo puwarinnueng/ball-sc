@@ -12,7 +12,7 @@ import java.io.Serializable;
  *
  * @nueng
  */
-public class ball2 implements Serializable {
+public class boundset implements Serializable {
     
     public static final String INPUTVALUE_PROPERTY = "inputValue";
     
@@ -20,7 +20,7 @@ public class ball2 implements Serializable {
     
     private PropertyChangeSupport propertySupport;
     
-    public ball2() {
+    public boundset() {
         propertySupport = new PropertyChangeSupport(this);
     }
     
